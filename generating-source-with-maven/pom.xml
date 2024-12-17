@@ -14,8 +14,6 @@
     <artifactId>generating-source-with-maven</artifactId>
 
     <properties>
-        <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
-
         <jsonschema2pojo-maven-plugin.version>1.2.2</jsonschema2pojo-maven-plugin.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <jackson-databind.version>2.18.2</jackson-databind.version>

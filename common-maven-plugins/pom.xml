@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.voiculescu</groupId>
+    <parent>
+        <groupId>org.voiculescu</groupId>
+        <artifactId>maven-default-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
     <artifactId>common-maven-plugins</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <java.version>21</java.version>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
         <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
@@ -33,22 +33,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
-                <version>${maven-clean-plugin.version}</version>
-                <executions>
-                    <execution>
-                        <id>auto-clean</id>
-                        <goals>
-                            <goal>clean</goal>
-                        </goals>
-                        <phase>
-                            initialize
-                        </phase>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -87,24 +71,5 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>pi-releases</id>
-            <url>http://pi.local:8081/repository/maven-releases/</url>
-            <name>PI releases</name>
-        </repository>
-        <snapshotRepository>
-            <id>pi-snapshots</id>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <url>http://pi.local:8081/repository/maven-snapshots/</url>
-            <name>PI snapshots</name>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>

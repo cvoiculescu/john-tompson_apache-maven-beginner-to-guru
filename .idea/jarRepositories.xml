@@ -19,6 +19,11 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
+      <option name="url" value="http://pi.local:8081/repository/maven-central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="https://nexus.lseg.stockex.local/repository/maven-central" />
     </remote-repository>
     <remote-repository>
