@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-maven-plugins" />
         <module name="alternate-jvm-groovy" />
+        <module name="alternate-jvm-kotlin" />
       </profile>
       <profile name="Annotation profile for generating-source-with-maven" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
