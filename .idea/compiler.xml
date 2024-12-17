@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven-test-pojo" />
+        <module name="maven-test-junit5" />
         <module name="maven-test-junit4" />
         <module name="common-maven-plugins" />
         <module name="alternate-jvm-groovy" />
