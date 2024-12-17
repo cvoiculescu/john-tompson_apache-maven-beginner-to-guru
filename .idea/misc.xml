@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/generating-source-with-maven/pom.xml" />
         <option value="$PROJECT_DIR$/alternate-jvm-groovy/pom.xml" />
         <option value="$PROJECT_DIR$/alternate-jvm-kotlin/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-test-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-default-parent/pom.xml" />
       </list>
     </option>
   </component>

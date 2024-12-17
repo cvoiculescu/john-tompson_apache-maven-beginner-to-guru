@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/alternate-jvm-kotlin.iml" filepath="$PROJECT_DIR$/alternate-jvm-kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/john-thompson_apache-maven-beginner-to-guru.iml" filepath="$PROJECT_DIR$/.idea/john-thompson_apache-maven-beginner-to-guru.iml" />
     </modules>
   </component>

@@ -10,5 +10,9 @@
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/target/generated-sources/xjc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-default-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-default-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-test-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-test-pojo/src/main/resources" charset="UTF-8" />
   </component>
 </project>
