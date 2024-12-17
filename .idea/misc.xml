@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/common-maven-plugins/pom.xml" />
         <option value="$PROJECT_DIR$/generating-source-with-maven/pom.xml" />
+        <option value="$PROJECT_DIR$/alternate-jvm-groovy/pom.xml" />
       </list>
     </option>
   </component>
