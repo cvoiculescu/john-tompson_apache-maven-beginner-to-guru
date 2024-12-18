@@ -13,16 +13,10 @@
 
     <artifactId>maven-test-junit4</artifactId>
 
-    <properties>
-        <junit.version>4.13.2</junit.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
