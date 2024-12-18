@@ -19,7 +19,7 @@
         </dependency>
     </dependencies>
 
-    <artifactId>mavet-test-failsafe</artifactId>
+    <artifactId>maven-test-failsafe</artifactId>
 
     <build>
         <plugins>
