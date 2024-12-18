@@ -1,10 +1,15 @@
 package org.voiculescu;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class HelloTestIT {
 
+    @Test
     public void testSayHello() {
         var hello = new Hello();
-        assert (hello.sayHello().equals("Hello World!"));
+        assertEquals("Hello World!", hello.sayHello());
     }
 
 }
