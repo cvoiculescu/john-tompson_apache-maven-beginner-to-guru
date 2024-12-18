@@ -12,6 +12,7 @@
         <module name="common-maven-plugins" />
         <module name="alternate-jvm-groovy" />
         <module name="alternate-jvm-kotlin" />
+        <module name="mavet-test-failsafe" />
         <module name="maven-test-pojo" />
         <module name="maven-test-junit4" />
       </profile>

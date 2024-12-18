@@ -18,6 +18,8 @@
     <file url="file://$PROJECT_DIR$/maven-test-junit5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-test-pojo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-test-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mavet-test-failsafe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mavet-test-failsafe/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-bom/src/main/resources" charset="UTF-8" />
   </component>
