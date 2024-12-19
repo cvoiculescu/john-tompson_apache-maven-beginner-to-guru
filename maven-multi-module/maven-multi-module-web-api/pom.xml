@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.voiculescu</groupId>
         <artifactId>maven-multi-module</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>maven-multi-module-web-api</artifactId>
@@ -14,6 +14,7 @@
     <properties>
         <jaxb-api.version>4.0.2</jaxb-api.version>
         <jaxb-runtime.version>4.0.5</jaxb-runtime.version>
+        <jaxb-maven-plugin.version>4.0.8</jaxb-maven-plugin.version>
     </properties>
 
     <dependencies>
@@ -35,7 +36,7 @@
             <plugin>
                 <groupId>org.jvnet.jaxb</groupId>
                 <artifactId>jaxb-maven-plugin</artifactId>
-                <version>4.0.8</version>
+                <version>${jaxb-maven-plugin.version}</version>
                 <executions>
                     <execution>
                         <goals>

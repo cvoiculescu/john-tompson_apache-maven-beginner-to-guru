@@ -11,8 +11,12 @@
         <relativePath/>
     </parent>
 
+    <properties>
+        <revision>1.0-SNAPSHOT</revision>
+    </properties>
+
     <artifactId>maven-multi-module</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
         <module>maven-multi-module-jpa-entities</module>
