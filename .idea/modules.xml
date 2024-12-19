@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/john-thompson_apache-maven-beginner-to-guru.iml" filepath="$PROJECT_DIR$/.idea/john-thompson_apache-maven-beginner-to-guru.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-app.iml" filepath="$PROJECT_DIR$/web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-model.iml" filepath="$PROJECT_DIR$/web-model.iml" />
     </modules>
   </component>
 </project>

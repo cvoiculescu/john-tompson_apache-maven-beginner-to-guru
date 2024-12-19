@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/maven-test-failsafe/pom.xml" />
         <option value="$PROJECT_DIR$/maven-multi-module/pom.xml" />
         <option value="$PROJECT_DIR$/maven-spring-boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-spring-boot-multi-module/pom.xml" />
       </list>
     </option>
   </component>
