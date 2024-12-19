@@ -61,6 +61,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="maven-spring-boot-demo" />
       </profile>
