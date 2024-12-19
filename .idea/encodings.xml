@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/generating-source-with-maven/target/generated-sources/xjc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-multi-module/maven-multi-module-jpa-entities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-multi-module/maven-multi-module-jpa-entities/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-multi-module/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-multi-module/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-test-failsafe/src/main/java" charset="UTF-8" />
