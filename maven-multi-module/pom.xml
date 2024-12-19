@@ -17,6 +17,7 @@
     <modules>
         <module>maven-multi-module-jpa-entities</module>
         <module>maven-multi-module-web-api</module>
+        <module>maven-multi-module-web-app</module>
     </modules>
 
 

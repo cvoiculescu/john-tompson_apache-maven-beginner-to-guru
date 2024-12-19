@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven-test-junit4-and-junit5" />
+        <module name="maven-multi-module-web-app" />
         <module name="maven-test-junit5" />
         <module name="common-maven-plugins" />
         <module name="alternate-jvm-groovy" />
