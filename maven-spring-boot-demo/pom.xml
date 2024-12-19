@@ -31,6 +31,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <custom.prop>custom property</custom.prop>
     </properties>
     <dependencies>
         <dependency>
@@ -78,6 +79,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
+                    <execution>
+                        <id>build-info-goal</id>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                        <configuration>
+                            <additionalProperties>
+                                <java.version>${java.version}</java.version>
+                                <custom.prop>${custom.prop}</custom.prop>
+                            </additionalProperties>
+                        </configuration>
+                    </execution>
                     <execution>
                         <id>pre-it</id>
                         <goals>
