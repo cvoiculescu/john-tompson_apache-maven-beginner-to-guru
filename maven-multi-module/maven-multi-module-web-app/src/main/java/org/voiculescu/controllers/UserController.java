@@ -10,7 +10,7 @@ public class UserController {
     private final UserMapper userMapper = new UserMapperImpl();
 
     User saveUser(UserCommand command) {
-        return userMapper.userCommandToUser(command);
+        return UserMapper.INSTANCE.userCommandToUser(command);
     }
 
 }
