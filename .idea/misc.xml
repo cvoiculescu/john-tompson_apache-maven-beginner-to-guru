@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/maven-test-junit4-and-junit5/pom.xml" />
         <option value="$PROJECT_DIR$/parent-bom/pom.xml" />
         <option value="$PROJECT_DIR$/maven-test-failsafe/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-multi-module/pom.xml" />
       </list>
     </option>
   </component>
