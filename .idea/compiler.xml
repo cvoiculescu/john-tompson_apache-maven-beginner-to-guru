@@ -36,10 +36,17 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar" />
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/mapstruct/mapstruct/1.6.3/mapstruct-1.6.3.jar" />
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar" />
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/mapstruct/mapstruct/1.6.3/mapstruct-1.6.3.jar" />
         </processorPath>
         <module name="maven-multi-module-convertors" />
+      </profile>
+      <profile name="Annotation profile for maven-multi-module" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="maven-multi-module-jpa-entities" />
       </profile>
       <profile name="Annotation profile for maven-spring-boot-multi-module" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -49,7 +56,6 @@
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="maven-spring-boot-demo" />
-        <module name="web-model" />
       </profile>
       <profile name="Annotation profile for web-app" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -61,15 +67,15 @@
         </processorPath>
         <module name="web-app" />
       </profile>
-      <profile name="Annotation profile for maven-multi-module" enabled="true">
+      <profile name="Annotation profile for web-model" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="maven-multi-module-jpa-entities" />
+        <module name="web-model" />
       </profile>
     </annotationProcessing>
   </component>
